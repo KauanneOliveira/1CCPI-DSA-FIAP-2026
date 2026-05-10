@@ -89,7 +89,7 @@ int main(){
                                  // 2 * 2 = 4                             
     printf("m = %d\n", m);       // m = 4
 
-     // EXER 14
+    // EXER 14
     // 1º parenteses, 2º soma
     int n = (10 > 5) + (3 * 2);  // 10 > 5 = 1, 3 * 2 = 6
                                  // 1 * 6 = 7                             
