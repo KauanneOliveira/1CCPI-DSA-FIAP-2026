@@ -19,7 +19,6 @@ int main(){
 
     exibir_vetor(valores, tamanho);
     
-    /*
     // exibicao sem funcao 
     for(int i = 0; i < 3; i++){
         int valor = valores[i];
@@ -33,7 +32,7 @@ int main(){
         printf("Digite o valor que gostaria de armazenar no indice %d: ", i);
         scanf("%d", &valores[i]);
     }
-    exibir_vetor(valores); */
+    exibir_vetor(valores);
 
     return 0;
 }
