@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-char produtos[3][10];
+char produtos[10][30];
 char produtoBuscado[30];
 int i, encontrado, resposta;
 
