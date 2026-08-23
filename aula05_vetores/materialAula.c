@@ -16,7 +16,7 @@ int main(){
     // LEITURAS
     // le até o espaco (risco de Buffer Overflow)
     printf("Digite um nome: ");
-    scanf("%s", nome);
+    scanf("%s", &nome);
     printf("Nome armazenado: %s \n", nome);
 
     // limpa o resto da linha para não atrapalhar o fgets
