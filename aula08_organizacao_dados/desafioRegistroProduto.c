@@ -1,5 +1,4 @@
-/* Escreva um programa em C que defina e utilize uma
-estrutura para gerenciar produtos de um estoque. */
+/* STRUCT - Escreva um programa em C que defina e utilize uma estrutura para gerenciar produtos de um estoque. */
 
 #include<stdio.h>
 #include<string.h>
