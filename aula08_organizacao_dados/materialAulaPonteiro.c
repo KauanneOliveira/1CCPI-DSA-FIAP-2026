@@ -21,18 +21,18 @@ int main() {
     // declarar um ponteiro - o * vai no tipo
     // usar o ponteiro - o * vai no ponteiro.
 
-    printf("\n\tEXIBINDO PARAMETROS\n");
+    printf("\n\tEXIBINDO PARAMETROS");
 
     // Endereço & - passa o endereco da variavel
     int x = 10;
     int* ptr = &x;
-    printf("Endereco: %p\n", ptr);        // vai exibir o endereco
+    printf("\nEndereco: %p", ptr);        // vai exibir o endereco
 
     // Desferencia * - acessa o valor guardado no endereço
     int valor = *ptr;
     *ptr = 20;
 
-    printf("Valor Guardado no endereco: %d\n", *ptr);        // vai exibir o valor
+    printf("\nValor Guardado no endereco: %d\n", *ptr);        // vai exibir o valor
 
     // PONTEIRO + STRUCT
     //=========================================
