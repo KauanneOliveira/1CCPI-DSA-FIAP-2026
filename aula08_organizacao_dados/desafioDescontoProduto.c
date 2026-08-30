@@ -17,9 +17,13 @@ void aplicarDesconto(Produto* p, float desc) {
 
 
 int main() {
-    printf("\n\tCALULADORA DE DESCONTOS");
-    
     Produto prod = {1, "Teclado", 100.0};
+
+    printf("\n\tCALULADORA DE DESCONTOS");
+    printf("\nDADOS DO PRODUTO");
+    printf("\nID: %d", prod.id);
+    printf("\nNome: %s", prod.nome);
+    printf("\nPreco: %.2f\n", prod.preco);
 
     // Chame a função passando o endereço
     aplicarDesconto(&prod, 10.0);
