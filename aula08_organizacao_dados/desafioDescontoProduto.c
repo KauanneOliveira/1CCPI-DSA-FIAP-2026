@@ -9,7 +9,6 @@ typedef struct {
 } Produto;
 
 void aplicarDesconto(Produto* p, float desc) {
-    // Calcule e atualize o preço aqui
     if(desc > 0) {
         p->preco = p->preco - (p->preco * (desc/100));
     }
@@ -25,7 +24,6 @@ int main() {
     printf("\nNome: %s", prod.nome);
     printf("\nPreco: %.2f\n", prod.preco);
 
-    // Chame a função passando o endereço
     aplicarDesconto(&prod, 10.0);
     printf("\nPreco com desconto: %.2f\n", prod.preco);
 

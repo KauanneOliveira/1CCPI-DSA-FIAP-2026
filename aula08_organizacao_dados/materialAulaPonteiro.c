@@ -31,8 +31,10 @@ int main() {
     // Desferencia * - acessa o valor guardado no endereço
     int valor = *ptr;
     *ptr = 20;
+    
+    printf("\nValor passado por ponteiro: %d", valor);
+    printf("\nValor do ponteiro: %d\n", *ptr);        // vai exibir o valor
 
-    printf("\nValor Guardado no endereco: %d\n", *ptr);        // vai exibir o valor
 
     // PONTEIRO + STRUCT
     //=========================================
@@ -60,9 +62,9 @@ int main() {
     //=========================================
 
     // passa o endereco com &
-    printf("\n\tEXIBINDO NOVA MODIFICADA NA FUNCAO");
+    printf("\n\tEXIBINDO NOVA MODIFICADA VIA FUNCAO");
     atualizarNotas(&a1, 9.5);
-    printf("\nNova nova (funcao): %.2f\n", a1.nota);
+    printf("\nNova nota (funcao): %.2f\n", a1.nota);
 
     // PONTEIRO + VETORES DE STRUCTS
     //=========================================
