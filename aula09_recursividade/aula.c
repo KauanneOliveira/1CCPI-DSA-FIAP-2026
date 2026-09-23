@@ -1,6 +1,10 @@
 // RECURSÃO
 //=========================================
 
+/* Iteração (for/while) - tarefas simples e repetitivas
+   Recursão - estrutura auto-similar, como navegação em árvores, grafos ou algoritmos de dividir e conquistar
+*/
+
 #include<stdio.h>
 
 // Recursão Comum
